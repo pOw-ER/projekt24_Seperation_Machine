@@ -5,7 +5,6 @@ const danach = document.getElementById('danach')
 const hinterTeil = document.getElementById('hinter')
 const vorderTeil = document.getElementById('vorder')
 
-
 let trennen = () => {
   if (davor.checked) {
     if (text.value.indexOf(trennungWort.value) < 0) {
